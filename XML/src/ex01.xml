@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<!--    <ex01 result="false">-->
+<!--        <machin><truc>hihi</machin></truc>-->
+<!--    </ex01>-->
+
+<!--    <ex02 result="false">-->
+<!--        <chose>hein</brol><brol>quoi</chose>-->
+<!--    </ex02>-->
+
+    <ex03 result="true">
+        <bizarre>ca<tiens>si</tiens></bizarre>
+    </ex03>
+
+    <ex04 result="true">
+        <chose><chose>quoi</chose>brol<chose>truc</chose></chose>
+    </ex04>
+
+    <ex05 result="false" explanation="Commence avec donnee, pas avec un tag">
+        hola<bizarre>ce<truc>la</truc></bizarre>
+    </ex05>
+    <ex06 result="true">
+        <ho><he><hein><bon></bon></hein></he></ho>
+    </ex06>
+</root>

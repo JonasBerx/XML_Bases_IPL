@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <livre isbn="978-2-253-11118-4">
+        <auteur>
+            <nom>
+                <surnom>Amelie</surnom>
+                <nom>Nothomb</nom>
+            </nom>
+            <date_de_naissance>
+                <jour>_13</jour>
+                <mois>aout</mois>
+                <an>_1967</an>
+            </date_de_naissance>
+        </auteur>
+        <titre>Hygiene_de_l'assassin</titre>
+        <category>roman</category>
+        <personages>
+            <principal>
+                <nom>Pretextat_Tach</nom>
+                <date_de_naissance>
+                    <jour>_24</jour>
+                    <mois>fevrier</mois>
+                    <an>_1908</an>
+                </date_de_naissance>
+                <maladie>syndrome_d'Elzenveiverplatz</maladie>
+            </principal>
+        </personages>
+    </livre>
+    <livre isbn="2-07-040368-8">
+        <auteur>
+            <nom>
+                <surnom>Didier</surnom>
+                <nom>Van_Cauwelaert</nom>
+            </nom>
+        </auteur>
+        <titre>Un_aller_simple</titre>
+        <category>roman</category>
+    </livre>
+    <livre isbn="9783196729047">
+        <auteur>
+            <nom>
+                <surnom>Oscar</surnom>
+                <nom>Wilde</nom>
+            </nom>
+            <date_de_naissance>
+                <jour>_16</jour>
+                <mois>octobre</mois>
+                <an>_1854</an>
+            </date_de_naissance>
+        </auteur>
+        <titre>Le_portrait_de_Dorain_Gray</titre>
+        <category>roman</category>
+        <personages>
+            <principal>
+                <nom>Dorian_Gray</nom>
+                <qualites>tres_beau</qualites>
+            </principal>
+        </personages>
+    </livre>
+</root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblio SYSTEM "bibliotheque.dtd">
+<biblio>
+    <livre id="livre_1" dispo="vrai">
+        <isbn>_978-2-253-11118-4</isbn>
+        <titre>Hygiene_de_l'assassin</titre>
+        <auteur id="auteur_1">
+            <nom>Amelie_Nothomb</nom>
+            <naissance>_13/08/1967</naissance>
+        </auteur>
+        <personnage id="personage_1">
+            <nom>Pretextat_Tach</nom>
+            <naissance>_24/02/1908</naissance>
+            <qualification>principal_et_a_une_syndrome</qualification>
+        </personnage>
+    </livre>
+
+<!--   Second livre d'Amelie Nothomb => Duplicate ID reference.
+       Comment resoudre? => IDREF?
+       -->
+
+
+    <livre id="livre_2" dispo="vrai">
+        <isbn>_2-07-040368-8</isbn>
+        <titre>Un_aller_simple</titre>
+        <auteur id="auteur_2">
+            <nom>Didier_Van_Cauwlaert</nom>
+        </auteur>
+    </livre>
+    <livre id="livre_3" dispo="vrai">
+        <isbn>_9783196729047</isbn>
+        <titre>Le_portrait_de_Dorian_Gray</titre>
+        <auteur id="auteur_3">
+            <nom>Oscar_Wilde</nom>
+            <naissance>_16/10/1854</naissance>
+            <mort>_30/11/1900</mort>
+        </auteur>
+        <personnage id="personage_2">
+            <nom>Dorian_Gray</nom>
+            <qualification>principal_et_de_tres_grand_beaute</qualification>
+        </personnage>
+    </livre>
+</biblio>

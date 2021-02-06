@@ -1,0 +1,10 @@
+<!ELEMENT LivreRecettes (Recette+) >
+<!ATTLIST LivreRecettes Nom ID #REQUIRED >
+<!ELEMENT Recette (Ingredient, Instruction) >
+<!ATTLIST Recette Nom CDATA #REQUIRED >
+<!ATTLIST Recette Num ID #REQUIRED >
+<!ELEMENT Ingredient (#PCDATA) >
+<!ATTLIST Ingredient Qte CDATA #REQUIRED>
+<!ATTLIST Ingredient Unite (gr|ml|gousse|tour_de_moulin)>
+<!ELEMENT Instruction (#PCDATA)>
+<!ATTLIST Instruction Num CDATA #REQUIRED >

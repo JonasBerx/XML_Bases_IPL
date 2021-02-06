@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE personne SYSTEM "fichePerso.dtd" >
+<personne>
+  <identite>
+    <nom>Leconte</nom>
+    <prenom>Emmeline</prenom>
+  </identite>
+  <bio>
+    <yeux couleur="vert"/>
+    <cheveux couleur="chatain" remarque="pas encore coloré"/>
+    <age unite="ans">13</age>
+    <poids kg="87"/>
+    <groupe_sanguin type="A"/>
+  </bio>
+  <socio>
+    <langue lang="fr"/>
+    <etat_civil type="marie"/>
+    <passeport nr="BE4563739439"/>
+  </socio>
+</personne>
