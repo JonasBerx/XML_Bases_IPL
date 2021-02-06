@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE acteur SYSTEM "films.dtd" >
+
+<acteur id="harry" personnage="Harry Goldfarb">Jared Leto</acteur>
+<!--Correction: make another file for new actor or change dtd-->
+<!--<acteur id="sara" personnage="Sara Goldfarb">Ellen Burstyn</acteur>-->

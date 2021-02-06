@@ -1,0 +1,49 @@
+<?xml version = "1.0"?>
+<!DOCTYPE Horaire SYSTEM "horaire.dtd">
+<Horaire Commentaires="Premier semestre 2002.">
+	<LigneHoraire HeureDept="08.30" Identif="l1" Duree="1.30">
+		<AnneeEtude>
+			<Groupe NomGroupe="Tous">
+				<Serie>S1</Serie>
+				<Serie>S2</Serie>
+				<Serie>S3</Serie>
+				<Serie>S4</Serie>
+			</Groupe>
+		</AnneeEtude>
+			<Cours>Théo rit des cons 3,1415192654 la Teur</Cours>
+			<Prof>Maurice CRAME</Prof>
+			<Prof>Léa PATATE</Prof>
+			<Prof>Jules de CHEZSMITHDENFACE</Prof>
+			<Local NbPlace="300">Aud B</Local>
+	</LigneHoraire>
+	<LigneHoraire HeureDept="10.00" Duree="3" Identif="l2"
+		Jour="Mar">
+		<AnneeEtude>
+			<Serie>S2</Serie>
+		</AnneeEtude>
+		<Cours>Di - GESTION de STOCK</Cours>
+		<Prof>Al CAPONE</Prof>
+		<Local NbPlace="44">B44</Local>
+	</LigneHoraire>
+	<LigneHoraire Identif="l3" HeureDept="08.00" Duree="1">
+		<AnneeEtude>
+			<Serie>S4</Serie>
+		</AnneeEtude>
+		<Cours>
+			Balayage des écrans (85 Hz)
+		</Cours>
+			<Local NbPlace="36">019</Local>
+	</LigneHoraire>
+	<LigneHoraire Jour="Lun" HeureDept="08.00" Duree="2"
+		Identif="l4">
+		<AnneeEtude>
+			<Serie>S1</Serie>
+			<Serie>S2</Serie>
+			<Serie>S3</Serie>
+		</AnneeEtude>
+		<Local NbPlace="200">Aud A</Local>
+		<Prof>Martin NI</Prof>
+		<Prof>Robert LAROUSSE</Prof>
+		<Cours>Etude du centre du milieu.</Cours>
+	</LigneHoraire>
+</Horaire>

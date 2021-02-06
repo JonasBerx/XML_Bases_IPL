@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE film SYSTEM "films.dtd" >
+<film lang="fr">
+    <photo href="photos/demineur.jpg" />
+    <titre>Requiem for a Dream</titre>
+    <annee>2000</annee>
+    <realisateur>Darren Aronofsky</realisateur>
+    <casting>
+        <acteur id="harry" personnage="Harry Goldfarb">Jared Leto</acteur>
+        <acteur id="sara" personnage="Sara Goldfarb">Ellen Burstyn</acteur>
+        <acteur id="mari" personnage="Marianne Silver">Jennifer
+            Connelly</acteur>
+    </casting>
+    <synopsis>
+        <perso ref="harry"/>, sa petite amie <perso ref="mari"/>, et son meilleur
+        ami Tyrone rêvent d’un monde meilleur et d’une vie plus facile. Ils
+        passent leurs journées à se droguer, pour être en parfaite lévitation, là
+        où ils se sentent invulnérables et tout simplement heureux.
+    </synopsis>
+</film>

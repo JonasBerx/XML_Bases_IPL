@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE film SYSTEM "films.dtd" >
+<film lang="fr">
+    <titre>Requiem for a Dream</titre>
+    <annee>2000</annee>
+    <realisateur>Darren Aronofsky</realisateur>
+    <casting>
+        <acteur personnage="Harry Goldfarb" id="harry" >Jared Leto</acteur>
+        <acteur id="sara" personnage="Sara Goldfarb">Ellen Burstyn</acteur>
+        <acteur personnage="Marianne Silver" id="mari" >Jennifer Connelly</acteur>
+    </casting>
+    <synopsis>
+    </synopsis>
+</film>

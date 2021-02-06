@@ -1,0 +1,14 @@
+<!ELEMENT films (film+)>
+<!ELEMENT film (photo?,titre,annee,realisateur,casting,synopsis)>
+<!ATTLIST film lang (fr|en) #REQUIRED>
+<!ELEMENT photo EMPTY>
+<!ATTLIST photo href CDATA #REQUIRED>
+<!ELEMENT casting (acteur*)>
+<!ELEMENT acteur (#PCDATA)>
+<!ATTLIST acteur id ID #IMPLIED personnage CDATA #REQUIRED>
+<!ELEMENT synopsis (#PCDATA|perso)*>
+<!ELEMENT perso EMPTY>
+<!ATTLIST perso ref IDREF #REQUIRED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT annee (#PCDATA)>
+<!ELEMENT realisateur (#PCDATA)>

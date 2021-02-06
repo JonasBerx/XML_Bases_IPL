@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE carnetDAdresses SYSTEM "adresses.dtd">
+<carnetDAdresses>
+    <personne id="Leconte" sexe="feminin">
+        <nom>
+            <nomDeFamille>Leconte</nomDeFamille>
+            <prenom>Emmeline</prenom>
+        </nom>
+        <email>@ipl.be</email>
+        <link superieur="Binot" subordonnes="Ferneeuw Damas"/>
+    </personne>
+    <personne id="Damas"  sexe="masculin">
+        <nom>
+            <nomDeFamille>Damas</nomDeFamille>
+            <prenom>Christophe</prenom>
+        </nom>
+        <email>@ipl.be</email>
+        <link superieur="Leconte"/>
+    </personne>
+    <personne id="Ferneeuw" sexe="feminin">
+        <nom>
+            <nomDeFamille>Ferneeuw</nomDeFamille>
+            <prenom>Stéphanie</prenom>
+        </nom>
+        <email>@ipl.be</email>
+        <link superieur="Leconte"/>
+    </personne>
+    <personne id="Binot" sexe="feminin">
+        <nom>
+            <nomDeFamille>Binot</nomDeFamille>
+            <prenom>Brigitte</prenom>
+        </nom>
+        <email>@ipl.be</email>
+        <link subordonnes="Leconte Seront"/>
+    </personne>
+    <personne id="Seront" sexe="masculin">
+        <nom>
+            <nomDeFamille>Seront</nomDeFamille>
+            <prenom>Grégory</prenom>
+        </nom>
+        <link superieur="Binot"/>
+    </personne>
+    <personne id="prof_neerlandais">
+        <nom>Prof_de_neerlandais</nom>
+    </personne>
+</carnetDAdresses>

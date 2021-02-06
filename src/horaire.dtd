@@ -1,0 +1,15 @@
+<!ELEMENT Prof (#PCDATA)>
+<!ELEMENT Cours (#PCDATA)>
+<!ELEMENT Local (#PCDATA)>
+<!ATTLIST Local NbPlace CDATA #REQUIRED >
+<!ELEMENT Serie (#PCDATA)>
+<!ELEMENT Groupe (Serie+)>
+<!ATTLIST Groupe NomGroupe CDATA #REQUIRED >
+<!ELEMENT AnneeEtude (Groupe | Serie)>
+<!ELEMENT LigneHoraire (AnneeEtude, Cours, Prof*,Local)>
+<!ATTLIST LigneHoraire HeureDept CDATA #REQUIRED>
+<!ATTLIST LigneHoraire Duree CDATA #REQUIRED>
+<!ATTLIST LigneHoraire Identif ID #REQUIRED>
+<!ATTLIST LigneHoraire Jour (Lun|Mar|Mer|Jeu|Ven)'Lun' >
+<!ELEMENT Horaire (LigneHoraire+)>
+<!ATTLIST Horaire Commentaires CDATA #IMPLIED >

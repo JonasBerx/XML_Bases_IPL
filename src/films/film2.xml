@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE films SYSTEM "films.dtd" >
+<films>
+    <film lang="fr">
+        <titre>Requiem for a Dream</titre>
+        <annee>2000</annee>
+        <realisateur>Darren Aronofsky</realisateur>
+        <casting>
+            <acteur id="harry" personnage="Harry Goldfarb">Jared Leto</acteur>
+        </casting>
+        <synopsis>
+            <perso ref="harry"/>, sa petite amie, et son meilleur ami Tyrone
+            rêvent d’un monde meilleur et d’une vie plus facile. Ils passent
+            leurs journées à se droguer, pour être en parfaite lévitation,
+            là où ils se sentent invulnérables et tout simplement heureux.
+        </synopsis>
+    </film>
+</films>

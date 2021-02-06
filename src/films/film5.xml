@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE films SYSTEM "films.dtd" >
+<films>
+    <film lang="fr">
+        <photo href="photos/demineur.jpg" />
+        <titre>Requiem for a Dream</titre>
+        <annee>2000</annee>
+        <realisateur>Darren Aronofsky</realisateur>
+        <casting>
+            <acteur id="harry" personnage="Harry Goldfarb">Jared
+                Leto</acteur>
+        </casting>
+        <synopsis>
+            <perso ref="harry"/>, sa petite amie, et son meilleur ami Tyrone
+            rêvent d’un monde meilleur et d’une vie plus facile.
+        </synopsis>
+    </film>
+    <film lang="en">
+        <photo href="photos/cool.jpg"/>
+        <titre>Requiem for a Dream</titre>
+        <annee>2000</annee>
+        <realisateur>Darren Aronofsky</realisateur>
+        <casting></casting>
+        <synopsis>
+            Harry, sa petite amie, et son meilleur ami Tyrone
+            rêvent d’un monde meilleur et d’une vie plus facile.
+        </synopsis>
+    </film>
+</films>
