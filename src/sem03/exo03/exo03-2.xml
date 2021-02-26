@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../brocante.xsd">
+    <etat est="bon" />
+    <prix>5</prix>
+</habit>

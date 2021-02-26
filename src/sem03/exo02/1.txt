@@ -1,0 +1,3 @@
+a) Quel est l’élément racine de ce fichier library.xsd ?
+
+    L'element racine de library.xsd est <xs:schema ... > </xs:schema>

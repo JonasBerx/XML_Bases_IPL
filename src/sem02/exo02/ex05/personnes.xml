@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE carnetDAdresses SYSTEM "adresses.dtd">
+<!DOCTYPE carnetDAdresses SYSTEM
+        "A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src\exo02\ex05\adresses.dtd">
 <carnetDAdresses>
     <personne id="Leconte" sexe="feminin">
         <nom>

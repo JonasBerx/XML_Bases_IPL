@@ -1,0 +1,14 @@
+<!ELEMENT track_ID (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!--<!ATTLIST genretype (Hip Hop|Rock|Metal|Pop)>-->
+<!ELEMENT comments (#PCDATA)>
+<!ATTLIST comments author CDATA #REQUIRED>
+<!ELEMENT song (track_ID,name,artist?,album?,genre?,comments*)>
+<!ELEMENT list (track_ID+)>
+<!ATTLIST list name ID #REQUIRED)>
+<!ELEMENT songlist (song+)>
+<!ELEMENT playlists (list*)>
+<!ELEMENT library (songlist, playlists?)>

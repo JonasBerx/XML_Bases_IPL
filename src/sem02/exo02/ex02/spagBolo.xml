@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE LivreRecettes SYSTEM "recettes.dtd" >
+<!DOCTYPE LivreRecettes SYSTEM
+		"A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src\exo02\ex02\recettes.dtd" >
 <LivreRecettes Nom="La cuisine de Michel">
 	<Recette Nom="Spaghetti bolognaise" Num="r1">
 		<Ingredient Qte="400" Unite="ml">Tomates pelées</Ingredient>

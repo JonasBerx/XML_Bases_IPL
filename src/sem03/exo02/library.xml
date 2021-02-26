@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--EXO 02 XML for XSD-->
+<!--<library-->
+<!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+<!--xsi:noNamespaceSchemaLocation="library.xsd">-->
+<!-- EXO 03 XSD to DTD-->
+<!DOCTYPE library SYSTEM
+    "library.dtd">
+<library>
+
+    <songlist>
+        <song>
+            <track_ID>1</track_ID>
+            <name>Track 1</name>
+            <artist>Artist</artist>
+            <album>Album</album>
+            <genre>Rock</genre>
+            <comments author="Jonas">
+                Nice
+            </comments>
+            <comments author="Jonas">
+                Nicee
+            </comments>
+        </song>
+        <song>
+            <track_ID>2</track_ID>
+            <name>Track 1</name>
+            <album>Artist2</album>
+            <genre>Rock</genre>
+            <comments author="Jonas">
+                Nicer
+            </comments>
+        </song>
+    </songlist>
+    <playlists>
+        <list name="list1">
+            <track_ID>1</track_ID>
+            <track_ID>2</track_ID>
+        </list>
+    </playlists>
+</library>

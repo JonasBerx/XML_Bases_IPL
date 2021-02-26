@@ -1,5 +1,6 @@
 <?xml version = "1.0"?>
-<!DOCTYPE horaire SYSTEM "horaire.dtd">
+<!DOCTYPE horaire SYSTEM
+        "A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src\exo02\ex03\horaire.dtd">
 <Horaire Commentaires="Premier semestre 2002.">
 	<LigneHoraire HeureDept="08.30" Identif="l4">
 		<AnneeEtude>

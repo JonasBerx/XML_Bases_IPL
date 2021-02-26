@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c53212f-12c6-4067-ab33-2a612434d5db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adresses.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/films/film1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/films/film2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/films/film3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/films/film4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/films/film5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/films/films.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/horaire.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/personnes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem01/Bases XML.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem01/exo1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem02/2. DTD-20210212.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem02/DTD.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem02/exo2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem03/3. XSD-20210212.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem03/exo02/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem03/exo02/library.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem03/exo02/library.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/horaire.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/horaire.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/spagBolo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/spagBolo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adresses.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex05/adresses.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex01/bibliotheque.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex04/ex01.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem01/seance01_exo_classe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex01/biblio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/horaire.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex03/horaire.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/horaire.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex03/horaire.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personnes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex05/personnes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recettes.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex02/recettes.dtd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spagBolo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/exo02/ex02/spagBolo.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +38,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -50,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/films" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sem03/exo04" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,6 +83,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src\sem03\exo04" />
+      <recent name="A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src\sem03\exo02" />
       <recent name="A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src\films" />
       <recent name="A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\XML\src" />
       <recent name="A:\JojoS\Desktop\3 - Vinci\BINV2140-1 Structures de données  avancé\XML\src" />
@@ -74,15 +95,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,7 +117,8 @@
       <updated>1612512460485</updated>
       <workItem from="1612512461728" duration="172000" />
       <workItem from="1612512933494" duration="4214000" />
-      <workItem from="1612639391383" duration="3665000" />
+      <workItem from="1612639391383" duration="3700000" />
+      <workItem from="1614324933002" duration="6512000" />
     </task>
     <servers />
   </component>

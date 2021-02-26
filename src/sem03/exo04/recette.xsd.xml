@@ -1,0 +1,25 @@
+<recettes
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="recette.xsd">
+  <!--1 or more repetitions:-->
+  <recette type="entree">
+    <entete>
+      <titre>string</titre>
+      <!--Optional:-->
+      <preparation>string</preparation>
+      <!--Optional:-->
+      <cuisson>string</cuisson>
+      <!--Optional:-->
+      <remarque>string</remarque>
+      <!--Optional:-->
+      <marinade>string</marinade>
+    </entete>
+    <!--1 or more repetitions:-->
+    <ingredients nbPers="3" pour="string">
+      <!--1 or more repetitions:-->
+      <ingredient qte="1.051732E7" unite="tige">string</ingredient>
+    </ingredients>
+    <!--1 or more repetitions:-->
+    <instruction>string</instruction>
+  </recette>
+</recettes>

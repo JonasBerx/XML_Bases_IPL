@@ -1,0 +1,34 @@
+1. Que signifie xsd présent devant chaque élément du document ?
+
+    Xsd signifie le namespace du schema.
+
+2. Quel est l’élément racine de ce fichier recettes.xsd ?
+
+    L'element racine est recettes.
+
+3. Quels sont les éléments facultatifs ? Quels sont les attributs facultatifs ?
+
+    Elements: cuisson,remarque,marinade -> minOccurs = 0
+    Attributes: qte, unite,pour -> use=optional
+
+4. Précisez si les affirmations suivantes sont correctes et justifiez
+
+    a. On peut déclarer les ingrédients après les instructions.
+
+        Non, le structure doit correspondre au xsd.
+
+    b. Il y a toujours un entête recettes est l’élément racine de tout document xml
+        qui référencera le document XSD car il s’agit du premier élément déclaré dans le fichier xsd.
+
+        Oui, l'element recettes est le premier element declare et est aussi au niveau plus haut
+
+    c. Il y a toujours au moins un ingrédient dans la liste des ingrédients de chaque recette
+
+        Oui, il n'y a pas un declarifiaction pour ingredient d'etre 0 ou plus, juste un max=> unbounded
+        Donc au minimum 1 ingredient
+
+    d. Le type d’une recette peut être un plat et une entrée
+
+        Non, Seulement 1 des types est acceptee par recette.
+
+

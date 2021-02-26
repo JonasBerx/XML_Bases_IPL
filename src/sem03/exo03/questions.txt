@@ -1,0 +1,9 @@
+a) Comparison de XSD - DTD
+
+    1. In DTD, no definition de type, XSD a une definition de brocante type?
+    2. Pas de definition de type habit in xsd (body,pyjama, ...), only xsd:string type
+    3. Prix peut etre PCDATA -> aussi string (DTD) | XSD-> xsd:decimal only
+
+b) Est le fichier valide?
+
+    Non, Ca commence avec habit mais le schema nom est brocante.
